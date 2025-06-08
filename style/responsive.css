@@ -1,0 +1,138 @@
+@media (max-width: 800px) {
+  .navBar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .pokeImg2 {
+    width: 100px;
+  }
+  .pokeNmb {
+    font-size: 16px;
+  }
+  .pokeName {
+    font-size: 16px;
+  }
+  .type-icon {
+    width: 25px;
+    height: 25px;
+  }
+  .main-card {
+    background-color: #8076a3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 16px;
+    padding: 56px;
+  }
+
+  .pokecards-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 701px) {
+  .navBar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .pokeImg2 {
+    width: 100px;
+  }
+  .pokeNmb {
+    font-size: 16px;
+  }
+  .pokeName {
+    font-size: 16px;
+  }
+  .type-icon {
+    width: 25px;
+    height: 25px;
+  }
+  .main-card {
+    background-color: #8076a3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 16px;
+    padding: 56px;
+  }
+
+  .pokecards-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+  }
+  .poke-card {
+    border-radius: 6px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 16px;
+  }
+}
+
+@media (max-width: 500px) {
+  .dialogName {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+  }
+  .pokeImg3 {
+    width: 200px;
+  }
+  .dialogBtn {
+    border-radius: 40px;
+    padding: 4px;
+    cursor: pointer;
+    height: 32px;
+    width: 32px;
+  }
+}
+
+@media (max-width: 500px) {
+  .dialogName {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+  }
+  .pokeImg3 {
+    width: 200px;
+  }
+  .dialogBtn {
+    border-radius: 40px;
+    padding: 4px;
+    cursor: pointer;
+  }
+  .pokeImg3 {
+    width: 100px;
+    padding-left: 24px;
+  }
+  .dialogBtn {
+    padding: 0;
+    cursor: pointer;
+    height: 32px;
+  }
+  .underPokeImg {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+    align-items: center;
+  }
+  .stat-row p {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    gap: 10px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+}

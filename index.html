@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/standard.css" />
+    <link rel="stylesheet" href="./style/PokebgClass.css" />
+    <link rel="stylesheet" href="./style/responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/erwischt.png"
+      type="image/x-icon"
+    />
+
+    <script src="./script/script.js"></script>
+    <script src="./script/template.js"></script>
+  </head>
+  <body onload="init()">
+    <header>
+      <div id="loading" class="loading-container d-none">
+        <div class="loading-bar"></div>
+        <p>Lädt...</p>
+      </div>
+      <div class="head-main"><h1>PokeDex von Max Heuft</h1></div>
+    </header>
+    <div class="main-card">
+      <div id="cardContainer"></div>
+      <div class="navBar">
+        <input
+          oninput="filterPokemon()"
+          id="pokemonFilter"
+          placeholder="Pokemon eingeben... (mind. 3 Buchstaben)"
+          class="searchInput"
+        /><button class="searchBtn">Suchen</button>
+      </div>
+      <p id="filterMessage" class="filter-message"></p>
+      <div id="pokecards-section" class="pokecards-section"></div>
+      <div class="underMainSection">
+        <button id="btnDis" class="button-28" onclick="loadMorePokemons()">
+          Mehr laden
+        </button>
+      </div>
+    </div>
+    <div id="dialog"></div>
+    <footer></footer>
+  </body>
+</html>
